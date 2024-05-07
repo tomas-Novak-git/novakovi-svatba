@@ -1,16 +1,21 @@
-import { Lato } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "../components/navbar/Navbar";
+import Footer from "@/components/Footer/Footer";
 
-const lato = Lato({
+const inter = Inter({
   subsets: ["latin"],
-  style: ["italic", "normal"],
-  weight: ["100", "400", "700"],
+  weight: ["400", "200", "600"],
 });
 
 export default function RootLayout({ children }) {
   return (
     <html lang='cs'>
-      <body className={lato.className}>{children}</body>
+      <body className={inter.className}>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
