@@ -5,7 +5,7 @@ export const metadata = {
 };
 
 const page = () => {
-  return <div>page</div>;
+  return <div className='pt-[70px]'>page</div>;
 };
 
 export default page;

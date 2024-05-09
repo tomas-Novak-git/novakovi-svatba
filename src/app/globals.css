@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
   --primary-color: #ced6ce;
-  --secondary-color: rgb(65 89 64);
+  --primary-color-opa: #ced6cee3;
+  --secondary-color: rgb(80, 121, 79);
+  --secondary-color-opa: rgb(80, 121, 79);
+  --accent-color: rgb(246, 215, 176);
+  --accent-color-opa: rgba(254, 192, 116, 0.528);
+}
+p {
+  font-weight: 200;
 }

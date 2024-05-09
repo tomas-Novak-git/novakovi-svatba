@@ -6,8 +6,10 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <h1 className='text-4xl font-thin  transition-opacity'>
-      Hanička a Tom se berou
-    </h1>
+    <div className='pt-[80px]'>
+      <h1 className='text-4xl font-thin  transition-opacity'>
+        Hanička a Tom se berou
+      </h1>
+    </div>
   );
 }
