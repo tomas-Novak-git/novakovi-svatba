@@ -31,48 +31,31 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='flex justify-between items-center h-16 w-full md:h-18 px-6 bg-[--primary-color-opa] absolute z-50 '>
-      <div>
-        <h1 className='text-2xl cursor-pointer md:text-4xl font-extralight tracking-tight text-[--secondary-color]'>
-          <Link
-            href='/'
-            rel='noreferrer'>
-            Novákovi
-          </Link>
-        </h1>
-      </div>
-      <ul className='hidden md:flex'>
-        {links.map(({ id, link, name }) => (
-          <li
-            key={id}
-            className={`px-2 lg:px-4 ${
-              pathName === link ? "underline" : ""
-            } cursor-pointer capitalize font-extralight text-lg lg:text-xl text-gray-700 hover:text-green-900 hover:underline decoration-2 decoration-[--accent-color] underline-offset-2
-            duration-200`}>
-            <Link href={link}>{name}</Link>
-          </li>
-        ))}
-      </ul>
-      <div className='absolute right-4 cursor-pointer z-50 md:hidden'>
+    <>
+      <div className='absolute right-[-10rem] sm:right-[-4rem] md:right-6 top-6 cursor-pointer z-50'>
         <Hamburger
           rounded
           size={24}
           distance='sm'
-          color={nav ? "#ffffff" : "#415940"}
+          color='#415940'
           toggled={nav}
           toggle={setNav}
         />
       </div>
       <ul
-        className={`flex flex-col justify-center items-center ease-in-out duration-300 ${
+        className={`${
+          nav ? "flex" : "hidden"
+        } flex-col justify-center items-start py-4 px-4 ease-in-out duration-300 ${
           nav ? "translate-x-0 " : "translate-x-full"
-        } fixed z-40 top-0 right-0 w-[75%] h-screen bg-[--secondary-color-opa] text-gray-100`}>
+        } absolute z-40 top-5 ${
+          nav ? "right-[-10rem]  sm:right-[-4rem] md:right-4" : "right-0"
+        } w-50% sm:w-[50%] md:w-[40%] lg:w-[30%] rounded shadow-md shadow-gray-600 bg-white border border-gray-300 text-gray-100`}>
         {links.map(({ id, link, name }) => (
           <li
             key={id}
             className={`px-2 cursor-pointer text-center ${
               pathName === link ? "underline" : ""
-            } font-extralight py-2 text-xl hover:underline decoration-1 decoration-[--accent-color] underline-offset-2`}>
+            } font-extralight py-2 text-xl text-gray-600 hover:underline decoration-1 decoration-[--accent-color] underline-offset-2`}>
             <Link
               onClick={() => setNav(!nav)}
               href={link}>
@@ -81,7 +64,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-    </div>
+    </>
   );
 };
 
