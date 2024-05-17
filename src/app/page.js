@@ -40,7 +40,7 @@ export default function Home() {
           width={200}
           height={200}
           alt='olive branch'
-          className='-z-10 hidden md:flex md:right-8 lg:right-28 rotate-12 absolute bottom-8 opacity-75'
+          className='-z-20 hidden md:flex md:right-8 lg:right-28  absolute top-8 opacity-75'
         />
         <Image
           src={leafs}

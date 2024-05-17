@@ -11,6 +11,9 @@ module.exports = {
         sans: ["var(--font-caveat)"],
       },
     },
+    backgroundImage: {
+      "hero-pattern": "url('/img/hero-pattern.svg')",
+    },
   },
   plugins: [],
 };

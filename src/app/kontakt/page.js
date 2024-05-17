@@ -1,6 +1,8 @@
 import React from "react";
-
+import Image from "next/image";
 import Avatars from "@/components/Avatars/Avatars";
+import topBranch from "/public/flowers/background-top.png";
+import botBranch from "/public/flowers/background-bot.png";
 
 export const metadata = {
   title: "Kontakt | Novákovi",
@@ -8,25 +10,33 @@ export const metadata = {
 
 const page = () => {
   return (
-    <main className='pt-16 px-6 min-h-[100dvh] bg-gradient-to-br from-slate-50 via-slate-50 to-[--accent-color-opa] flex flex-col items-start justify-center'>
-      <h1 className='self-center py-8 text-2xl font-regular text-[--secondary-color] underline decoration-1 decoration-[--accent-color] underline-offset-2'>
-        Kontakt
-      </h1>
-      <article className='bg-[--primary-color-opa] self-center p-6 text-lg rounded-es-lg rounded-se-lg shadow'>
-        <h2>Na něco jsme zapomněli?</h2>
-        <h3>Nebo máte ještě doplňující dotaz?</h3>
-        <p className='text-md font-extralight pt-4'>
-          Rádi vše zodpovíme buď my s Haničkou, nebo naši skvělí svědci Emička a
-          Honza.
-        </p>
-      </article>
-      <Avatars />
-      <div className='self-center'>
-        <h3 className=' text-2xl py-8 text-[--secondary-color] drop-shadow-md shadow[--accent-color]'>
-          Moc se na Vás těšíme!
-        </h3>
-      </div>
-    </main>
+    <>
+      <Image
+        src={topBranch}
+        width={1024}
+        height={500}
+        alt='branch decoration'
+        className='absolute top-0 right-0 -z-30'
+      />
+      <main className='px-6 min-h-[100dvh] flex flex-col items-start justify-center'>
+        <h1 className='pb-8 text-5xl self-center font-regular text-black underline decoration-1 decoration-[--accent-color] underline-offset-8'>
+          Kontakt
+        </h1>
+        <Avatars />
+        <div className='self-center'>
+          <h3 className='italic text-2xl md:text-5xl py-8 px-9 text-black drop-shadow-md shadow[--accent-color] rounded-lg  bg-white bg-opacity-65'>
+            Moc se na Vás těšíme!
+          </h3>
+        </div>
+      </main>
+      <Image
+        src={botBranch}
+        width={1024}
+        height={500}
+        alt='branch decoration'
+        className='absolute bottom-0 left-0 -z-30'
+      />
+    </>
   );
 };
 
