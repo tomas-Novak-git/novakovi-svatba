@@ -19,7 +19,7 @@ const page = () => {
         className='absolute top-0 right-0 -z-30'
       />
       <main className='px-6 min-h-[100dvh] flex flex-col items-start justify-center'>
-        <h1 className='pb-8 text-5xl self-center font-regular text-black underline decoration-1 decoration-[--accent-color] underline-offset-8'>
+        <h1 className='pb-8 text-5xl self-center font-semibold text-black underline decoration-1 decoration-[--accent-color] underline-offset-8'>
           Kontakt
         </h1>
         <Avatars />
