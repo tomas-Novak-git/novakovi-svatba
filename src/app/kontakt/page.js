@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import Avatars from "@/components/Avatars/Avatars";
+import Avatars from "../../components/Avatars/Avatars";
 import topBranch from "/public/flowers/background-top.png";
 import botBranch from "/public/flowers/background-bot.png";
-import Footer from "@/components/Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 
 export const metadata = {
   title: "Kontakt | Novákovi",

@@ -1,11 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import naseFoto from "../../public/photo/my.png";
-import branch from "../../public/flowers/branch-half.png";
-import leafs from "../../public/flowers/leafs.png";
-import lines from "../../public/flowers/lines.png";
-import Names from "@/components/mainContent/Names";
-import Info from "@/components/mainContent/Info";
+import Names from "../components/mainContent/Names";
+import Info from "../components/mainContent/Info";
 import topBranch from "../../public/flowers/background-top.png";
 import botBranch from "../../public/flowers/background-bot.png";
 

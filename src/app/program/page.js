@@ -1,5 +1,5 @@
 import React from "react";
-import Program from "@/components/Program/Program";
+import Program from "../../components/Program/Program";
 import Link from "next/link";
 import Image from "next/image";
 import background from "/public/flowers/background.png";
