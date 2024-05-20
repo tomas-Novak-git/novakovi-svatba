@@ -2,7 +2,7 @@ import React from "react";
 
 const Info = () => {
   return (
-    <div className='flex flex-col self-center items-center gap-1 mt-4'>
+    <div className='flex flex-col self-center items-center gap-1 mt-4 bg-white px-2 pb-2'>
       <p className='text-lg ml-4'>červenec</p>
 
       <div className='flex flex-row justify-evenly items-center gap-4'>

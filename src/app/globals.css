@@ -4,9 +4,9 @@
 
 :root {
   --primary-color: #ced6ce;
-  --primary-color-opa: #ced6cee3;
+  --primary-color-opa: #ced6cebe;
   --secondary-color: rgb(80, 121, 79);
-  --secondary-color-opa: rgba(80, 121, 79, 0.308);
+  --secondary-color-opa: rgba(80, 121, 79, 0.08);
   --accent-color: rgb(246, 215, 176);
   --accent-color-opa: rgba(254, 192, 116, 0.528);
 }

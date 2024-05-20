@@ -15,11 +15,16 @@ const Navbar = () => {
     },
     {
       id: 2,
+      link: "/informace",
+      name: "Informace",
+    },
+    {
+      id: 3,
       link: "/program",
       name: "Program",
     },
     {
-      id: 3,
+      id: 4,
       link: "/ubytovani-parkovani",
       name: "Ubytování / Parkování",
     },
@@ -32,11 +37,11 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='absolute right-6 top-6 cursor-pointer z-50 bg-white rounded-full border border-slate-700'>
+      <div className='absolute right-2 md:right-6 top-2 md:top-6 cursor-pointer z-50 bg-white rounded-full border border-slate-700'>
         <Hamburger
           rounded
-          size={24}
-          distance='sm'
+          size={18}
+          distance='md'
           color='#415940'
           toggled={nav}
           toggle={setNav}
