@@ -3,7 +3,6 @@ import Image from "next/image";
 import Avatars from "../../components/Avatars/Avatars";
 import topBranch from "/public/flowers/background-top.png";
 import botBranch from "/public/flowers/background-bot.png";
-import Footer from "../../components/Footer/Footer";
 
 export const metadata = {
   title: "Kontakt | Novákovi",
@@ -37,7 +36,6 @@ const page = () => {
         alt='branch decoration'
         className='absolute bottom-0 opacity-30 left-0 -z-30'
       />
-      <Footer />
     </>
   );
 };

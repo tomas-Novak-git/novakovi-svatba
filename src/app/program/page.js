@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import background from "/public/flowers/background.png";
 import leafs from "/public/flowers/leafs.png";
+import Kontakt from "@/components/Kontakt";
 
 export const metadata = {
   title: "Program | Novákovi",
@@ -72,7 +73,7 @@ const programData = [
   },
   {
     id: 13,
-    time: "21 + ",
+    time: "21:00 + ",
     program: "Volná zábava",
   },
 ];
@@ -98,16 +99,7 @@ const page = () => {
             program={program}
           />
         ))}
-        <div className='py-20 relative w-full'>
-          <p className='text-center text-wrap text-xl'>
-            V případě jakéhokoliv dotazu se na nás obraťe{" "}
-            <Link
-              href={"/kontakt"}
-              className='underline cursor-pointer px-1 py-1 transition hover:bg-[--primary-color] hover:text-white'>
-              Kontakt
-            </Link>
-          </p>
-        </div>
+        <Kontakt />
         <Image
           src={leafs}
           width={600}

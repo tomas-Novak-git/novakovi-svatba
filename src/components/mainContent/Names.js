@@ -9,9 +9,7 @@ const Info = () => {
           <p className='text-2xl '>&</p>
           <h2 className='text-[36px] text-gray-700'>Tomáš</h2>
         </div>
-        <h3 className='italic font-semibold text-5xl mt-2 self-center'>
-          Novákovi
-        </h3>
+        <h3 className='italic text-5xl mt-2 self-center'>Novákovi</h3>
       </div>
     </>
   );
