@@ -81,7 +81,7 @@ const programData = [
 const page = () => {
   return (
     <>
-      <div className='min-h-[100dvh] relative w-full flex flex-col mt-8 gap-4 items-center'>
+      <div className='min-h-[100dvh] relative max-w-[750px] mx-auto flex flex-col mt-8 gap-4 items-center'>
         <div className='relative'>
           <Image
             src={background}
@@ -99,15 +99,16 @@ const page = () => {
             program={program}
           />
         ))}
+        <p className='mt-6 text-lg'>Časy jsou samozřejmě orientační.</p>
         <Kontakt />
-        <Image
-          src={leafs}
-          width={600}
-          height={600}
-          alt='olive branch'
-          className='-z-10 hidden sm:block bottom-0 -left-40 md:-left-28 lg:-left-12 absolute overflow-hidden opacity-10'
-        />
       </div>
+      <Image
+        src={leafs}
+        width={600}
+        height={600}
+        alt='olive branch'
+        className='-z-10 hidden sm:block bottom-0 -left-40 md:-left-28 lg:-left-12 absolute overflow-hidden opacity-10'
+      />
     </>
   );
 };

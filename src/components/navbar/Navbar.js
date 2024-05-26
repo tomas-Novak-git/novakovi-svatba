@@ -37,7 +37,10 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='absolute right-2 md:right-6 top-2 md:top-6 cursor-pointer z-50 bg-white rounded-full border border-slate-700'>
+      <div
+        className={`fixed right-2 md:right-6 top-2 md:top-6 cursor-pointer z-50 ${
+          nav ? "bg-[#f5f5f5]" : "bg-white"
+        } rounded-full border border-slate-300`}>
         <Hamburger
           rounded
           size={18}
@@ -52,7 +55,7 @@ const Navbar = () => {
           nav ? "flex" : "hidden"
         } flex-col justify-center items-start py-4 px-4 ease-in-out duration-300 ${
           nav ? "translate-x-0 " : "translate-x-full"
-        } absolute z-40 top-4 ${
+        } fixed z-40 top-4 ${
           nav ? "right-4" : "right-0"
         } w-50% sm:w-[50%] md:w-[40%] lg:w-[30%] rounded shadow-md shadow-gray-600 bg-white border border-gray-300 text-gray-100`}>
         {links.map(({ id, link, name }) => (

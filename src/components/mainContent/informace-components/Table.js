@@ -32,23 +32,23 @@ const adressData = [
 const Table = () => {
   return (
     <div className='flex flex-col items-center gap-2 py-6 mb-14 border border-r-transparent border-l-transparent border-t-[#ef8f895e] border-b-[#ef8f895e] rounded '>
-      <div className='flex flex-row justify-between w-full px-6'>
+      <div className='flex flex-row items-center justify-between w-full px-6'>
         <h3 className='font-bold text-xl py-2 '>Místo</h3>
         <h3 className='font-bold text-xl py-2'>Adresa</h3>
-        <h3 className='font-bold text-xl py-2'>Link</h3>
+        <h3 className='font-bold text-xl py-2'>Mapy</h3>
       </div>
 
       {adressData.map(({ id, name, adress, link }) => (
         <div
           key={id}
           className='flex flex-row justify-between w-full px-6'>
-          <p className='text-sm md:text-lg'>{name}</p>
-          <p className='text-sm md:text-lg'>{adress}</p>
-          <p className='text-sm md:text-lg'>
+          <p className='text-sm md:text-lg '>{name}</p>
+          <p className='text-sm md:text-lg '>{adress}</p>
+          <p className='text-sm md:text-lg '>
             <Link
               href={link}
               className='underline decoration-pink-200 underline-offset-2 transition hover:text-[#ef8f895e]'>
-              Adresa
+              Odkaz
             </Link>
           </p>
         </div>

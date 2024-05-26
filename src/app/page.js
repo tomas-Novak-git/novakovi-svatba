@@ -26,8 +26,8 @@ export default function Home() {
             <Image
               unoptimized
               src={naseFoto}
-              width={300}
-              height={300}
+              width={250}
+              height={250}
               alt='Fotka nás'
               className='rounded-lg shadow-md shadow-black'
             />
