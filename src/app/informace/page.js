@@ -81,23 +81,22 @@ const page = () => {
           className='self-center pt-12'
         />
         <Paragraf heading={"Děti a psi"}>
-          Jelikož si svoji (snad!!) pouze jednu svatbu v životě společně s Vámi
-          chceme užít fakt naplno, prosíme Vás, nechte svoje ratolesti u
-          hlídacích babiček či tet. Pojďte pro jeden večer vypustit rodičovské
-          povinnosti a užít si to s námi sami za sebe. Na svatbě bude pouze pár
-          dětí z nejbližší rodiny a jedno kojící se mimčo, ale..žádný dětský
-          program, hračky ani spešl dětský jídlo pro ně nezajišťujeme.
+          Chceme si svoji (snad!!!) jen jednu svatbu v životě společně s Vámi
+          užít fakt naplno. Proto jsme se rozhodli pro svatbu jen s dospěláky,
+          bez dětí. Výjimku má pouze nejbližší rodina. Díky, že to budete
+          respektovat.
         </Paragraf>
         <Paragraf>
-          Co se týče psích mazlíků, ty nechte, prosím, taky doma. Bez výjimky.
-          Naše hyperaktivní a lidi milující - pejsky{" "}
-          <span className='italic'>bohužel not so much</span> fenka Korinka bude
-          ve scéně přítomná po celou dobu s námi a poslední, co v tenhle den
-          chceme řešit, jsou natržený psí uši a návštěva veteriny.
+          Co se týče psích mazlíčků, ty nechte, prosím, taky doma. Bez jakékoliv
+          výjimky. Naše hyperaktivní a lidi milující (pejsky bohužel not so
+          much) fenka Korinka bude ve scéně přítomná po celou dobu s námi. A
+          poslední, co v tenhle náš den chceme řešit, jsou natržený psí uši a
+          návštěva veteriny.
         </Paragraf>
         <Paragraf>
           <span className='italic font-semibold'>
-            Moc děkujeme, že tyhle naše přání budete respektovat.
+            Moc děkujeme, že respektujete naše rozhodnutí a zařídíte se podle
+            nich.
           </span>
         </Paragraf>
         <Image
