@@ -84,15 +84,16 @@ const page = () => {
           Jelikož si svoji (snad!!) pouze jednu svatbu v životě společně s Vámi
           chceme užít fakt naplno, prosíme Vás, nechte svoje ratolesti u
           hlídacích babiček či tet. Pojďte pro jeden večer vypustit rodičovské
-          povinnosti a užít si to s námi sami za sebe. Na svatbě bude pár dětí z
-          nejbližší rodiny a jedno kojící se mimčo, ale..žádný dětský program,
-          hračky ani spešl dětský jídlo pro ně nezajišťujeme.
+          povinnosti a užít si to s námi sami za sebe. Na svatbě bude pouze pár
+          dětí z nejbližší rodiny a jedno kojící se mimčo, ale..žádný dětský
+          program, hračky ani spešl dětský jídlo pro ně nezajišťujeme.
         </Paragraf>
         <Paragraf>
           Co se týče psích mazlíků, ty nechte, prosím, taky doma. Bez výjimky.
-          Naše hyperaktivní a lidi milující - pejsky bohužel not so much fenka
-          Korinka bude ve scéně přítomná po celou dobu s námi a poslední, co v
-          tenhle den chceme řešit, jsou natržený psí uši a návštěva veteriny.
+          Naše hyperaktivní a lidi milující - pejsky{" "}
+          <span className='italic'>bohužel not so much</span> fenka Korinka bude
+          ve scéně přítomná po celou dobu s námi a poslední, co v tenhle den
+          chceme řešit, jsou natržený psí uši a návštěva veteriny.
         </Paragraf>
         <Paragraf>
           <span className='italic font-semibold'>

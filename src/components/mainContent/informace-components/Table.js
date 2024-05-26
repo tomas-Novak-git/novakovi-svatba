@@ -19,7 +19,7 @@ const adressData = [
     id: 3,
     name: "Parking",
     adress: "Vícero možností",
-    link: "https://en.mapy.cz/zakladni?x=16.396365&y=49.973818&ud=&ud=&ud=&l=1&ut=M%C3%ADrov%C3%A9%20n%C3%A1m%C4%9Bst%C3%AD&ut=u%20budovy%20po%C5%BE%C3%A1rn%C3%AD%20zbrojnice&ut=u%20budovy%20ZU%C5%A0&uc=9lga-xXOqpTtgWjgSvfYf&vlastni-body&z=16",
+    link: "https://en.mapy.cz/s/labefobale",
   },
   {
     id: 4,

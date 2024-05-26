@@ -3,6 +3,8 @@ import Image from "next/image";
 import Lines from "/public/flowers/lines.png";
 import Paragraf from "@/components/mainContent/informace-components/Paragraf";
 import Hotels from "@/components/mainContent/UP-components/Hotels";
+import Link from "next/link";
+import Kontakt from "@/components/Kontakt";
 
 export const metadata = {
   title: "Ubytování | Novákovi",
@@ -22,7 +24,7 @@ const page = () => {
             className='absolute bottom-[5%] -z-[1] opacity-100'
           />
         </div>
-        <article className='flex flex-col self-center items-start gap-6  '>
+        <article className='flex flex-col self-center items-start gap-6'>
           <Paragraf heading={"Ubytování"}>
             Nad hlavním sálem divadla se nachází taneční sál, kde je možné se
             ubytovat s vlastní karimatkou a spacákem. V omezeném počtu je také
@@ -40,6 +42,20 @@ const page = () => {
           </Paragraf>
           <Hotels />
         </article>
+        <article className='flex flex-col self-center items-start gap-6'>
+          <Paragraf heading={"Parkování"}>
+            Přímo u scény je pouze pár parkovacích míst, které kvůli organizaci
+            a celkovému průběhu dne potřebujeme využit my. Na tomto{" "}
+            <Link
+              href={"https://en.mapy.cz/s/labefobale"}
+              className='font-semibold underline'>
+              ODKAZU
+            </Link>{" "}
+            naleznete nejbližší možná parkoviště. V sobotní poledne přestává
+            povinnost placení až do pondělního rána.
+          </Paragraf>
+        </article>
+        <Kontakt />
       </div>
     </>
   );
