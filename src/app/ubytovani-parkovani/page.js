@@ -35,9 +35,11 @@ const page = () => {
             problém.
           </Paragraf>
           <Paragraf>
-            Pokud by někdo nezvládl hromadné bydlení či spacák, níže najdete
-            seznam možných ubytování v Ústí.
-            <br /> V tom případě si však spaní musíte uhradit samy. <br />
+            Pokud by někdo chtěl více komfortu a soukromí ke spaní, níže najdete
+            seznam, kde si můžete vybrat z ubytovacích zařízení v Ústí.
+            <br />
+            Počítejte ale, že si ho musíte sami zajistit i uhradit.
+            <br />
             <span className='font-semibold'>Děkujeme že to chápete.</span>
           </Paragraf>
           <Hotels />
@@ -45,10 +47,10 @@ const page = () => {
         <article className='flex flex-col self-center items-start gap-6'>
           <Paragraf heading={"Parkování"}>
             Přímo u scény je pouze pár parkovacích míst, které kvůli organizaci
-            a celkovému průběhu dne potřebujeme využit my. Na tomto{" "}
+            a celkovému průběhu dne potřebujeme využít my. Na tomto{" "}
             <Link
               href={"https://en.mapy.cz/s/labefobale"}
-              className='font-semibold underline'>
+              className='font-semibold underline transition hover:decoration-[#ff20141f]'>
               ODKAZU
             </Link>{" "}
             naleznete nejbližší možná parkoviště. V sobotní poledne přestává

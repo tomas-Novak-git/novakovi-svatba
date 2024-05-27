@@ -1,8 +1,8 @@
-import { Playfair_Display } from "next/font/google";
+import { Lora } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/navbar/Navbar";
 
-const playFair = Playfair_Display({
+const lora = Lora({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
@@ -10,7 +10,7 @@ const playFair = Playfair_Display({
 export default function RootLayout({ children }) {
   return (
     <html lang='cs'>
-      <body className={playFair.className}>
+      <body className={lora.className}>
         <Navbar />
         {children}
       </body>

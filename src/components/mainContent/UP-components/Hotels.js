@@ -30,7 +30,7 @@ const Hotels = () => {
         {hotels.map(({ id, nazev, link }) => (
           <li
             key={id}
-            className='text-xl'>
+            className='text-xl underline decoration-slate-800 underline-offset-2 transition hover:decoration-[#ff20141f]'>
             <a href={link}>{nazev}</a>
           </li>
         ))}
