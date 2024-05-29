@@ -19,6 +19,7 @@ export default function Home() {
         height={500}
         alt='branch decoration'
         className='absolute top-0 opacity-50 right-0 -z-30'
+        priority
       />
       <div className='h-[100dvh] max-w-[500px] mx-auto flex flex-col justify-center items-start py-8 bg-transparent'>
         <div className='flex flex-row w-full self-center justify-center'>
@@ -30,6 +31,7 @@ export default function Home() {
               height={250}
               alt='Fotka nás'
               className='rounded-lg shadow-md shadow-black'
+              priority
             />
             <p className='text-base pt-4'>Pozvánka na svatbu</p>
           </div>

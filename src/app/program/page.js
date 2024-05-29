@@ -74,7 +74,7 @@ const programData = [
   {
     id: 13,
     time: "21:00 + ",
-    program: "Volná zábava",
+    program: "Volná zábava, jam?",
   },
 ];
 

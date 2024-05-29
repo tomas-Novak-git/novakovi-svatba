@@ -99,13 +99,14 @@ const page = () => {
             nich.
           </span>
         </Paragraf>
+
         <Image
           src={Divider}
           alt='line divider'
-          height={75}
-          width={150}
-          className='self-center pt-12'
+          fill
+          className='self-center pt-12 h-[75px] w-[150px]'
         />
+
         <Paragraf heading={"Dary"}>
           Pokud byste nás chtěli poctít svatebním darem, budeme vděčni za
           finanční příspěvek v obálce, který bude z praktických důvodů vhodnější
@@ -118,6 +119,7 @@ const page = () => {
           height={400}
           alt='olive branch'
           className='-z-10 hidden sm:block bottom-0 -left-40 md:-left-28 lg:-left-12 absolute overflow-hidden opacity-10'
+          priority
         />
       </main>
     </div>
