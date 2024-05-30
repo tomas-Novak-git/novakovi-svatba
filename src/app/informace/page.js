@@ -104,9 +104,8 @@ const page = () => {
           alt='line divider'
           height={75}
           width={150}
-          className='self-center pt-12 h-[75px] w-[150px]'
+          className='self-center pt-12'
         />
-
         <Paragraf heading={"Dary"}>
           Pokud byste nás chtěli poctít svatebním darem, budeme vděčni za
           finanční příspěvek v obálce, který bude z praktických důvodů vhodnější
