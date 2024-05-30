@@ -99,11 +99,11 @@ const page = () => {
             nich.
           </span>
         </Paragraf>
-
         <Image
           src={Divider}
           alt='line divider'
-          fill
+          height={75}
+          width={150}
           className='self-center pt-12 h-[75px] w-[150px]'
         />
 
