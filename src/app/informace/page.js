@@ -29,12 +29,14 @@ const page = () => {
         <Paragraf heading={"Místo konání"}>
           Celé to začne na Mírovém náměstí v Ústí nad Orlicí v{" "}
           <Link
+            target='_blank'
             href='https://en.mapy.cz/s/federedare'
             className='underline decoration-pink-200 underline-offset-2 transition hover:text-[#ef8f895e]'>
             Obřadní síni
           </Link>
           . Následně se přes focení v parku pod kostelem přesuneme do{" "}
           <Link
+            target='_blank'
             href='https://msuo.cz/'
             className='underline decoration-pink-200 underline-offset-2 transition hover:text-[#ef8f895e]'>
             Malé scény

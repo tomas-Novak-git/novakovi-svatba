@@ -47,6 +47,7 @@ const Table = () => {
           <p className='text-sm md:text-lg '>
             <Link
               href={link}
+              target='_blank'
               className='underline decoration-pink-200 underline-offset-2 transition hover:text-[#ef8f895e]'>
               Odkaz
             </Link>
