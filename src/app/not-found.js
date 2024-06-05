@@ -2,6 +2,10 @@ import Link from "next/link";
 import Image from "next/image";
 import error from "../../public/404/giphy.gif";
 
+export const metadata = {
+  title: "Novákovi | 404 Chyba",
+};
+
 export default function NotFound() {
   return (
     <div className='h-[100dvh] max-w-[500px] mx-auto flex flex-col justify-center items-center py-8 bg-transparent'>
