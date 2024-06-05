@@ -13,7 +13,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div className='min-h-[100dvh] mx-auto max-w-[750px] flex flex-col items-center justify-start'>
+    <div className='min-h-[100dvh] px-6 mx-auto max-w-[750px] flex flex-col items-center justify-start'>
       <div className='py-32 relative'>
         <h1 className='text-4xl md:text-5xl'>Informace</h1>
         <Image
@@ -66,10 +66,10 @@ const page = () => {
         />
         <Paragraf heading={"Dress code"}>
           Nevěsta má bílý šaty a DIY sandály, ženich si bere i na obřad
-          conversky. Nepotřebujeme vypadat jak ze svatebního magazínu, hlavně
-          abychom si to užili a cítili se celou dobu komfortně. Pokud dámy
-          preferují vysoké lodičky a super fancy róby a pánové oblek, klidně si
-          je vezměte. My je ale po Vás nevyžadujeme. <br />
+          conversky(nejspíš). Nepotřebujeme vypadat jak ze svatebního magazínu,
+          hlavně abychom si to užili a cítili se celou dobu komfortně. Pokud
+          dámy preferují vysoké lodičky a super fancy róby a pánové oblek,
+          klidně si je vezměte. My je ale po Vás nevyžadujeme. <br />
           PS: Na Malé scéně je případně k dispozici zázemí, kde se budete moct
           kdykoliv převléct do čehokoliv.
         </Paragraf>

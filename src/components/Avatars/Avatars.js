@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import haniPic from "/public/Hanicka.jpeg";
+import haniPic from "/public/Hanicka.png";
 import tomPic from "/public/Tom.png";
 import emiPic from "/public/emicka.png";
 import hansPic from "/public/Hans.png";
