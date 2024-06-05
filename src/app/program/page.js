@@ -84,6 +84,7 @@ const page = () => {
       <div className='min-h-[100dvh] relative max-w-[750px] mx-auto flex flex-col mt-8 gap-4 items-center'>
         <div className='relative'>
           <Image
+            priority
             src={background}
             width={200}
             height={200}

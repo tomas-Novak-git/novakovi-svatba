@@ -12,6 +12,7 @@ const page = () => {
   return (
     <>
       <Image
+        priority
         src={topBranch}
         width={800}
         height={500}
@@ -30,6 +31,7 @@ const page = () => {
         </div>
       </main>
       <Image
+        priority
         src={botBranch}
         width={600}
         height={500}

@@ -11,6 +11,7 @@ const Avatars = () => {
       <div className='flex  flex-col flex-wrap gap-4'>
         <div className='flex flex-row items-center justify-center relative z-0'>
           <Image
+            priority
             src={haniPic}
             width={100}
             height={100}
@@ -26,6 +27,7 @@ const Avatars = () => {
         </div>
         <div className='flex flex-row items-center justify-center relative z-0'>
           <Image
+            priority
             src={tomPic}
             width={100}
             height={100}
@@ -43,6 +45,7 @@ const Avatars = () => {
       <div className='flex  flex-col flex-wrap gap-4'>
         <div className='flex flex-row items-center justify-center relative z-0'>
           <Image
+            priority
             src={emiPic}
             width={100}
             height={100}
@@ -58,10 +61,11 @@ const Avatars = () => {
         </div>
         <div className='flex flex-row items-center justify-center relative z-0'>
           <Image
+            priority
             src={hansPic}
             width={100}
             height={100}
-            alt='Hanička'
+            alt='Honza'
             className='rounded-full border-2 border-[--accent-color] shadow-lg shadow-slate-300'
           />
           <div className='flex flex-col items-start pl-4'>
